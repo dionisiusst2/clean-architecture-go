@@ -1,0 +1,7 @@
+user: dionisius
+password: rootroot123
+dbname: bakery
+hostname: localhost
+port: "5432"
+sslmode: disable
+timezone: Asia/Jakarta
