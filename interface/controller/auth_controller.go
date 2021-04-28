@@ -55,13 +55,12 @@ func (ctrl *authController) Login(c *gin.Context) {
 
 func (ctrl *authController) GetMe(c *gin.Context) {
 	user, ok := c.Get("user")
-
 	if !ok {
 		err := errors.NewHttpError("auth_controller.GetMe", http.StatusInternalServerError, "internal server error.")
 		handleError(c, err)
 	} else {
 		c.JSON(http.StatusOK, gin.H{
-			"user": user.(domain.User),
+			"user": user.(*domain.User),
 		})
 	}
 }
