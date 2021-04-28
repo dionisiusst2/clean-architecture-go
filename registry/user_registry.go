@@ -1,9 +1,9 @@
 package registry
 
 import (
-	"github.com/dionisiusst2/bakery-id/interface/controller"
-	repository "github.com/dionisiusst2/bakery-id/repository/user"
-	interactor "github.com/dionisiusst2/bakery-id/usecase/interactor/user"
+	"github.com/dionisiusst2/clean-architecture-go/interface/controller"
+	repository "github.com/dionisiusst2/clean-architecture-go/repository/user"
+	interactor "github.com/dionisiusst2/clean-architecture-go/usecase/interactor/user"
 )
 
 func (r *registry) NewUserController() controller.User {

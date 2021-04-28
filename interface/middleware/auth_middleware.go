@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dionisiusst2/bakery-id/domain"
-	interactor "github.com/dionisiusst2/bakery-id/usecase/interactor/user"
-	cookie "github.com/dionisiusst2/bakery-id/utils/cookie"
-	"github.com/dionisiusst2/bakery-id/utils/errors"
-	"github.com/dionisiusst2/bakery-id/utils/token"
+	"github.com/dionisiusst2/clean-architecture-go/domain"
+	interactor "github.com/dionisiusst2/clean-architecture-go/usecase/interactor/user"
+	cookie "github.com/dionisiusst2/clean-architecture-go/utils/cookie"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/utils/token"
 	"github.com/gin-gonic/gin"
 )
 

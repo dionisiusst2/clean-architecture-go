@@ -1,12 +1,12 @@
 package registry
 
 import (
-	"github.com/dionisiusst2/bakery-id/interface/controller"
-	"github.com/dionisiusst2/bakery-id/interface/middleware"
-	repository "github.com/dionisiusst2/bakery-id/repository/auth"
-	interactor "github.com/dionisiusst2/bakery-id/usecase/interactor/auth"
-	cookie "github.com/dionisiusst2/bakery-id/utils/cookie"
-	"github.com/dionisiusst2/bakery-id/utils/token"
+	"github.com/dionisiusst2/clean-architecture-go/interface/controller"
+	"github.com/dionisiusst2/clean-architecture-go/interface/middleware"
+	repository "github.com/dionisiusst2/clean-architecture-go/repository/auth"
+	interactor "github.com/dionisiusst2/clean-architecture-go/usecase/interactor/auth"
+	cookie "github.com/dionisiusst2/clean-architecture-go/utils/cookie"
+	"github.com/dionisiusst2/clean-architecture-go/utils/token"
 )
 
 func (r *registry) NewAuthController() controller.Auth {

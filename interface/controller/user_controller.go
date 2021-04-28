@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dionisiusst2/bakery-id/domain"
-	interactor "github.com/dionisiusst2/bakery-id/usecase/interactor/user"
+	"github.com/dionisiusst2/clean-architecture-go/domain"
+	interactor "github.com/dionisiusst2/clean-architecture-go/usecase/interactor/user"
 	"github.com/gin-gonic/gin"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dionisiusst2/bakery-id/domain"
-	"github.com/dionisiusst2/bakery-id/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/domain"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
 )
 
 func (r *authRepository) GetUserByEmail(email string) (domain.User, errors.HttpError) {

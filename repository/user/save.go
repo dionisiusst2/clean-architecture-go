@@ -3,8 +3,8 @@ package repository
 import (
 	"net/http"
 
-	"github.com/dionisiusst2/bakery-id/domain"
-	"github.com/dionisiusst2/bakery-id/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/domain"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
 )
 
 func (r *userRepository) Save(user *domain.User) errors.HttpError {

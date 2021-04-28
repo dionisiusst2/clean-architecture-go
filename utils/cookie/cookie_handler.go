@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/dionisiusst2/bakery-id/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
 	sc "github.com/gorilla/securecookie"
 )
 

@@ -1,8 +1,8 @@
 package registry
 
 import (
-	"github.com/dionisiusst2/bakery-id/interface/controller"
-	"github.com/dionisiusst2/bakery-id/interface/middleware"
+	"github.com/dionisiusst2/clean-architecture-go/interface/controller"
+	"github.com/dionisiusst2/clean-architecture-go/interface/middleware"
 	"gorm.io/gorm"
 )
 

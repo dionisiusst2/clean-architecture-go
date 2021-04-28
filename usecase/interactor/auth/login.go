@@ -3,7 +3,7 @@ package interactor
 import (
 	"net/http"
 
-	"github.com/dionisiusst2/bakery-id/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
 	"golang.org/x/crypto/bcrypt"
 )
 

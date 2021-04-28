@@ -3,9 +3,9 @@ package interactor
 import (
 	"net/http"
 
-	"github.com/dionisiusst2/bakery-id/domain"
-	repository "github.com/dionisiusst2/bakery-id/repository/user"
-	"github.com/dionisiusst2/bakery-id/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/domain"
+	repository "github.com/dionisiusst2/clean-architecture-go/repository/user"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
 	"github.com/google/uuid"
 )
 

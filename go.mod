@@ -1,4 +1,4 @@
-module github.com/dionisiusst2/bakery-id
+module github.com/dionisiusst2/clean-architecture-go
 
 go 1.16
 

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/dionisiusst2/bakery-id/config"
-	"github.com/dionisiusst2/bakery-id/infrastructure/database/psql"
-	"github.com/dionisiusst2/bakery-id/infrastructure/router"
-	"github.com/dionisiusst2/bakery-id/registry"
+	"github.com/dionisiusst2/clean-architecture-go/config"
+	"github.com/dionisiusst2/clean-architecture-go/infrastructure/database/psql"
+	"github.com/dionisiusst2/clean-architecture-go/infrastructure/router"
+	"github.com/dionisiusst2/clean-architecture-go/registry"
 )
 
 func main() {

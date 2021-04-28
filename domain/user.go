@@ -3,7 +3,7 @@ package domain
 import (
 	"time"
 
-	"github.com/dionisiusst2/bakery-id/utils/validator"
+	"github.com/dionisiusst2/clean-architecture-go/utils/validator"
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 )

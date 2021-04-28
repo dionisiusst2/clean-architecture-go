@@ -3,9 +3,9 @@ package controller
 import (
 	"net/http"
 
-	"github.com/dionisiusst2/bakery-id/domain"
-	interactor "github.com/dionisiusst2/bakery-id/usecase/interactor/auth"
-	"github.com/dionisiusst2/bakery-id/utils/errors"
+	"github.com/dionisiusst2/clean-architecture-go/domain"
+	interactor "github.com/dionisiusst2/clean-architecture-go/usecase/interactor/auth"
+	"github.com/dionisiusst2/clean-architecture-go/utils/errors"
 	"github.com/gin-gonic/gin"
 )
 

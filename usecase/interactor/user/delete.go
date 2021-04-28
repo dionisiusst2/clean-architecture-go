@@ -1,6 +1,6 @@
 package interactor
 
-import "github.com/dionisiusst2/bakery-id/utils/errors"
+import "github.com/dionisiusst2/clean-architecture-go/utils/errors"
 
 func (intr *userInteractor) DeleteByID(id string) errors.HttpError {
 	uuid, err := intr.parseToUUID(id)
